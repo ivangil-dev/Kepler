@@ -1,0 +1,21 @@
+{
+  "name": "Kepler",
+  "description": "Kepler es un tema de escaparate frontend para el motor Ghost Blog.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ivan Gil",
+    "email": "soporte@ivangil.es",
+    "url": "https://omniscientia.es"
+  },
+  "engines": {
+    "ghost": ">=5.0.0"
+  },
+  "keywords": [
+    "ghost-theme",
+    "ghost-theme-science",
+    "ghost blog"
+  ],
+  "config": {
+    "card_assets": true
+  }
+}
