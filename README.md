@@ -2,7 +2,7 @@
 > Kepler es un tema de escaparate frontend para el motor Ghost Blog.
 
 <p align="center">
-    <img src="https://img.shields.io/github/languages/code-size/ivangil-dev/kepler?color=green&label=Tama%C3%B1o?style=flat-square" alt="Tamaño del proyecto">
+    <img src="https://img.shields.io/github/languages/code-size/ivangil-dev/kepler?color=green&label=Tama%C3%B1o&style=flat-square" alt="Tamaño del proyecto">
     <a href="https://nodejs.org/es/download/">
     <img src="https://img.shields.io/badge/Node.js-14.16.1-green?style=flat-square" alt="Node.js" />
   </a>
