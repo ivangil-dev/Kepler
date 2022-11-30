@@ -1,0 +1,11 @@
+{{!< default}}
+
+{{> header}}
+<main>
+        <div class="blog">
+            {{#foreach posts}}
+                {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
+                {{> "post-card"}}
+            {{/foreach}}
+        </div>
+</main>
