@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang='{{ @site.locale }}'>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+        <title>{{ meta_title }}</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta name="theme-color" content="{{accentColor}}">
+        <meta name="msapplication-navbutton-color" content="{{accentColor}}"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="{{accentColor}}"/>
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="referrer" content="origin-when-cross-origin" />
+
+        {{> fonts }}
+        {{> compiled/inline-css }}
+
+        <link rel='preconnect' href='https://m.stripe.com' />
+        <link rel='preload' href='{{ asset 'js/app.min.js' }}' as='script'>
+        {{#if @custom.google_analytics}}
+            <script async src="https://www.googletagmanager.com/gtag/js?id={{@custom.google_analytics}}"></script>
+        {{/if}}
+        <script defer src='{{ asset 'js/app.min.js' }}'></script>
+
+        {{ ghost_head }}
+    </head>
+
+    <body class='{{ body_class }}'>
+        {{{ body }}}
+        {{> footer}}
+        {{#if @custom.cookie_notice}}
+            {{> cookies}}
+        {{/if}}
+        {{ ghost_foot }}
+    </body>
+</html>
