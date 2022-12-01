@@ -13,26 +13,27 @@
     <img src="http://ForTheBadge.com/images/badges/built-with-love.svg" alt="Made with love" />
   </a>
 </p>
+<p align="center">
+    <img src="https://img.shields.io/badge/ghost-000?style=for-the-badge&logo=ghost&logoColor=%23F7DF1E">
+</p>
 
 <div id="contents"></div>
 
-## Tabla de contenidos
+## Table of Contents
 
-## Características
+## Skills
 
-## Estructura :wrench:
+- No jquery dependency
 
-## :clipboard: Comandos 
+## Structure :wrench:
 
-## :pushpin: Instalar el tema
+## :clipboard: Commands
 
-## :hammer_and_wrench: Funciones extra
+## :pushpin: Install theme
 
-### Portal Ghost personalizado
+### Upload theme
 
-### Desplegar tema
-
-### :moneybag: Contribuciones :euro:
+### :moneybag: Contributions :euro:
 
 Any contribution will be well received. What do you think if you buy me a coffee?
 
@@ -45,4 +46,4 @@ Any contribution will be well received. What do you think if you buy me a coffee
 GNU General Public License v3.0. More info into [LICENSE.md](LICENSE.md)
 
 ---
-<sub>[⇧ Subir arriba](#contents)</sub>
+<sub>[⇧ Go to top](#contents)</sub>
